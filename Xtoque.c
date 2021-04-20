@@ -12,7 +12,30 @@ int totalPedidos; totalProdVendidos; /**Eder** variaveis globais que armazenam o
 // FUNÇÕES/PROTÓTIPOS
 
 void menuPrincipal(){
-
+  int opcaoEscolhida;
+  
+  printf("+-------------------------------------------------------------+\n");
+  printf("+                         Xtoque                              +\n");
+  printf("+-------------------------------------------------------------+\n");
+  printf("+  1-Cadastrar estoque     + 2-Registro de Pedidos do Cliente +\n");
+  printf("+--------------------------+----------------------------------+\n");
+  printf("+  3-Relatório de Estoque  + 4-Relatório Geral de Vendas      +\n");
+  printf("+--------------------------+----------------------------------+\n");
+  printf("+                          0-Sair                             +\n");
+  printf("+-------------------------------------------------------------+\n");
+  Printf("Digite uma opção:");
+  
+  scanf("%d",&opcaoEscolhida);
+  
+  switch(opcaoEscolhida){
+    case 1: //cadEstoque();
+    case 2: //regPedClientes();
+    case 3: //relatorioEstoque();
+    case 4: relatorioGeral();
+    default: return 0;
+  }  
+  
+  
 }
 
 void relatorioGeral(){
@@ -32,9 +55,9 @@ void relatorioGeral(){
   
 }
 
-
+//FUNÇÃO PRINCIPAL
 int main(){
-  
+  menuPrincipal();
   
 return 0;                             // quando retornar 0(zero) o programa fecha.
 }
