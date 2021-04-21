@@ -35,6 +35,19 @@ void menuPrincipal(){
     default: return 0;
   }  
   
+  int main ()
+	{
+		printf("\n Relatório do Estoque");
+		int relatorioEstoque[50][2];
+		int i, j;
+		for (i=0; i<50; i++) {
+			for (j = 0; j < 2; j++) {
+				scanf("\n %d", &relatorioEstoque[i][j]);
+			}
+		}
+		system ("pause");
+		return 0;
+	}
   
 }
 
