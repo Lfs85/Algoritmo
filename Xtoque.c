@@ -98,3 +98,33 @@ void cadEstoque(){
       scanf ("%d", &matriz[ i ][ j ]);
     }
 	}
+
+
+
+
+
+
+//entrada
+
+int relatorioEstoque [50][2]i,j;
+printf("\n Digite o código e a quantidade de produtos \n\n:" );
+for (i=0; i < 50; i++)
+	for (j=0; j < 2; j++) {
+		printf("Produtos [%d][%d] = ", i, j);
+		scanf("%d", &relatorioEstoque);
+	}
+
+
+
+//saida
+
+
+for (i=0; i < 50; i++)
+	for (j=0; j < 2; j++) {
+		printf(" Relatório [%d,%d]=",i+1,j+1, relatorioEstoque[i][j]);
+	}
+getch();
+return (0);
+}
+
+
