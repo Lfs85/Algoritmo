@@ -93,4 +93,8 @@ void cadEstoque(){
   		{
      scanf ("%d", &cadEstoque[ i ][ j ]);
   		}
-	}  
+	{
+      printf ("\n cadEstoque [%d][%d] = ", i, j);
+      scanf ("%d", &matriz[ i ][ j ]);
+    }
+	}
