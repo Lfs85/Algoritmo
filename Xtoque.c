@@ -23,7 +23,7 @@ void menuPrincipal(){
   printf("+--------------------------+----------------------------------+\n");
   printf("+                          0-Sair                             +\n");
   printf("+-------------------------------------------------------------+\n");
-  Printf("Digite uma opção:");
+  printf("Digite uma opção:");
   
   scanf("%d",&opcaoEscolhida);
   
