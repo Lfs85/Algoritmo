@@ -3,7 +3,7 @@
 
 //VARIÁVEIS GLOBAIS
 
-int totalPedidos; totalProdVendidos; /**Eder** variaveis globais que armazenam o total de pedidos FINALIZADOS e PRODUTOS VENDIDOS
+int totalPedidos, totalProdVendidos; /**Eder** variaveis globais que armazenam o total de pedidos FINALIZADOS e PRODUTOS VENDIDOS
                                         Obs: o valor do total será alterado toda a vez que uma compra é finalizada pelo
                                         cliente. Estas variaveis são globais para que todas as funções que a utilizam
                                         consigam modificar e consultar o seu valor*/
