@@ -83,14 +83,14 @@ return 0;                             // quando retornar 0(zero) o programa fech
 
 
 
-
-//  void cadEstoque(){
+void cadEstoque(){
+  	int cadEstoque [50][2], numProduto; 
   	printf("\n Informe o numero de produtos para cadastro no estoque./n");
-  	int cadEstoque [50][2];
+  	scanf("%d", &numProduto);
   	int i, j
   	for ( i=0; i<50; i++ )
   		for ( j=0; j<2; j++ )
   		{
-     scanf ("%d", &cadestoque[ i ][ j ]);
+     scanf ("%d", &cadEstoque[ i ][ j ]);
   		}
 	}  
