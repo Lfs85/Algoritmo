@@ -74,3 +74,23 @@ int main(){
   
 return 0;                             // quando retornar 0(zero) o programa fecha.
 }
+
+
+
+
+
+
+
+
+
+
+//  void cadEstoque(){
+  	printf("\n Informe o numero de produtos para cadastro no estoque./n");
+  	int cadEstoque [50][2];
+  	int i, j
+  	for ( i=0; i<50; i++ )
+  		for ( j=0; j<2; j++ )
+  		{
+     scanf ("%d", &cadestoque[ i ][ j ]);
+  		}
+	}  
